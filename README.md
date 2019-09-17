@@ -1,1 +1,1 @@
-# https://github.com/nupaT/rsschool-cv/cv
+# https://nupaT.github.io/nupaT/rsschool-cv/cv
