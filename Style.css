@@ -40,20 +40,17 @@ main {
   overflow: hidden;
 }
 
-.rightSec {
+.leftSec {
   float: left;
   width: 30%;
   background-color:  rgb(211, 198, 17);
 }
 
-.leftSec {
+.rightSec {
   float: right;
   width: 70%;
-  //background-color: black;
-}
-
-.name {
-  text-align: center;
+  background-color: black;
+  color: rgb(211, 198, 17);
 }
 
 .avatar {
@@ -62,13 +59,13 @@ main {
   height: 200px;
   overflow: hidden;
   position: relative;
-  top: 10px;
-  left: 10px;
+  top: 15px;
+  left: 50px;
   border: 5px solid #cfc425;
   border-radius: 100px;
 }
-div.avatar {
-  
+.avatar div {
+  height: 400px;
 }
 
 img {
@@ -78,3 +75,21 @@ img {
   left: -75px;
 }
 
+.monolog {
+  width: 100%;
+  text-align: right;
+}
+
+.name {
+  height: 1px;
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.portfolio {
+  height: 100px;
+  width: 75%;
+  text-align: center;
+  padding: 75px 75px;
+}
