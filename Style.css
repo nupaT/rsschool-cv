@@ -7,6 +7,10 @@ header {
   height: 90px;
 }
 
+h1{
+  display: none;
+}
+
 .wrapper-nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -33,25 +37,23 @@ a {
 }
 
 main {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  border: 1px solid red;
-  width: 100%;
+  overflow: hidden;
 }
 
-
-div.rightSec {
-display: inline-block;
-//grid-template-rows: repeat(4, 1fr);
-border: 1px solid green;
-width: 100%;
+.rightSec {
+  float: left;
+  width: 30%;
+  background-color:  rgb(211, 198, 17);
 }
 
-div.leftSec {
-  display: inline-block;
-  //grid-template-rows: repeat(4, 1fr);
-  border: 1px solid black;
-  width: 100%;
+.leftSec {
+  float: right;
+  width: 70%;
+  //background-color: black;
+}
+
+.name {
+  text-align: center;
 }
 
 .avatar {
@@ -62,8 +64,11 @@ div.leftSec {
   position: relative;
   top: 10px;
   left: 10px;
-  border: 5px solid rgb(207, 196, 37);
+  border: 5px solid #cfc425;
   border-radius: 100px;
+}
+div.avatar {
+  
 }
 
 img {
@@ -73,6 +78,3 @@ img {
   left: -75px;
 }
 
-h1{
-  display: none;
-}
