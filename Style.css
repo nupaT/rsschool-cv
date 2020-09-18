@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Arvo;
+    src: url(fonts/Arvo-Regular.ttf);
+  }
+
+* {
+  width: 1024px;
+  margin: auto;
+  font-family: 'Arvo', serif;
+}
+
+header {
+  height: 90px;
+  background-color: black;
+}
+
+footer {
+  height: 100px;
+  background-color: black;
+  color: rgb(158, 150, 40);
+}
+
+h1{
+  display: none;
+}
+
+.wrapper-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 50px;
+  padding-left: 0px; 
+}
+
+nav ul > li {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.navi {
+  width: 100%;
+  
+}
+
+li.navi {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #cfc425;
+}
+
+main {
+  overflow: hidden;
+  background-color: black;
+}
+
+.leftSec {
+  float: left;
+  width: 30%;
+  background-color:  rgb(211, 198, 17);
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+}
+
+.rightSec {
+  float: right;
+  width: 70%;
+  background-color: black;
+  color: rgb(211, 198, 17);
+}
+
+.avatar {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  top: 15px;
+  left: 50px;
+  border: 5px solid #cfc425;
+  border-radius: 100px;
+}
+.avatar div {
+  height: 400px;
+}
+
+img {
+  width: 400px;
+  position: relative;
+  bottom: 25px;
+  left: -75px;
+}
+
+.name {
+  height: 10px;
+  width: 100%;
+  padding-top: 75px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+}
+
+.monolog {
+  width: 100%;
+  display: block;
+  height: 125px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 700;
+  border-bottom: 3px solid black;
+}
+
+.portfolio {
+  height: 75px;
+  width: 80%;
+  text-align: center;
+  padding: 140px 75px 50px;
+  border-bottom: 3px solid #cfc425;
+}
+
+#skill {
+  padding-top: 10px;
+}
+
+#code {
+  padding-top: 10px;
+}
+
+#code a{
+  color: aqua;
+  font-style: italic;
+}
+
+#last {
+  border-bottom: 3px solid #cfc425;
+}
+
+.form {
+  width: 100%;
+  font-size: 2em;
+  font-weight: bolder;
+  margin-top: 0px;
+  padding-left: 30px;
+  opacity: 0.8;
+}
+
+.contact {
+  display: block;
+  position: relative;
+  right: -706px;
+  top: -60px;
+  width: 100%;
+  font-size: 1em;
+  align-content: flex-end;  
+}
+
+input {
+  width: 150px;
+  height: 50px;
+  border: 7px solid rgb(211, 198, 17);
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: 10px;
+  background-color:  rgb(211, 198, 17);
+}
+
+input:hover {
+  background-color: rgb(255, 253, 120);
+}
+
