@@ -14,6 +14,12 @@ header {
   background-color: black;
 }
 
+footer {
+  height: 100px;
+  background-color: black;
+  color: rgb(158, 150, 40);
+}
+
 h1{
   display: none;
 }
@@ -118,4 +124,13 @@ img {
 
 #skill {
   padding-top: 10px;
+}
+
+#code {
+  padding-top: 10px;
+}
+
+#code a{
+  color: aqua;
+  font-style: italic;
 }
