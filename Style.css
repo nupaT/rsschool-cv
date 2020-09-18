@@ -26,3 +26,12 @@ nav {
   padding-top: 30px;
   padding-left: 0px;
 }
+
+.rightSec {
+display: grid;
+grid-template-rows: repeat(4, 1fr);
+}
+
+img {
+  size: 400px;
+}
