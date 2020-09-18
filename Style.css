@@ -1,10 +1,17 @@
+@font-face {
+    font-family: Arvo;
+    src: url(fonts/Arvo-Regular.ttf);
+  }
+
 * {
   width: 1024px;
   margin: auto;
+  font-family: 'Arvo', serif;
 }
 
 header {
   height: 90px;
+  background-color: black;
 }
 
 h1{
@@ -26,6 +33,7 @@ nav ul > li {
 
 .navi {
   width: 100%;
+  
 }
 
 li.navi {
@@ -34,16 +42,19 @@ li.navi {
 
 a {
   text-decoration: none;
+  color: #cfc425;
 }
 
 main {
   overflow: hidden;
+  background-color: black;
 }
 
 .leftSec {
   float: left;
   width: 30%;
   background-color:  rgb(211, 198, 17);
+  border-top-right-radius: 75px;
 }
 
 .rightSec {
@@ -75,21 +86,36 @@ img {
   left: -75px;
 }
 
-.monolog {
+.name {
+  height: 10px;
   width: 100%;
-  text-align: right;
+  padding-top: 75px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
 }
 
-.name {
-  height: 1px;
+.monolog {
   width: 100%;
-  padding-top: 100px;
+  display: block;
+  height: 125px;
+  width: 100%;
   text-align: center;
+  padding-top: 10px;
+  //padding-left: 90px;
+  font-weight: 700;
+  border-bottom: 3px solid black;
 }
 
 .portfolio {
-  height: 100px;
-  width: 75%;
+  height: 75px;
+  width: 80%;
   text-align: center;
-  padding: 75px 75px;
+  padding: 140px 75px 50px;
+  border-bottom: 3px solid #cfc425;
+}
+
+#skill {
+  padding-top: 10px;
 }
