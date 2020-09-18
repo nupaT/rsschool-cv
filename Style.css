@@ -1,0 +1,28 @@
+* {
+  width: 1024px;
+  margin: auto;
+  
+}
+
+h1{
+  display: none;
+
+}
+
+header{
+  border: 1px solid red;
+  height: 50px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.navi {
+  display: grid;
+  display: inline;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #000000;
+  padding-top: 30px;
+  padding-left: 0px;
+}
