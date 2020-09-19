@@ -1,1 +1,1 @@
-https://nupaT.github.io/rsschool-cv/Index.html
+https://nupaT.github.io/rsschool-cv
