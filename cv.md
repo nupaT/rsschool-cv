@@ -1,6 +1,6 @@
 # My Resume
 
-### Hello!
+### Front End Developer
 
 1. My name is Evgeni Anisoev.
 2. My contacts:
