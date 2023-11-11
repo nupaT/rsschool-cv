@@ -4,9 +4,12 @@
   }
 
 * {
+  font-family: 'Arvo', serif;
+}
+
+body {
   width: 1024px;
   margin: auto;
-  font-family: 'Arvo', serif;
 }
 
 header {
@@ -16,6 +19,10 @@ header {
 
 h1{
   display: none;
+}
+
+h2 {
+  margin: 0;
 }
 
 .wrapper-nav {
@@ -33,7 +40,6 @@ nav ul > li {
 
 .navi {
   width: 100%;
-  
 }
 
 li.navi {
@@ -72,6 +78,7 @@ main {
 
 .avatar {
   display: inline-block;
+  margin: 0 0 10px 0;
   width: 200px;
   height: 200px;
   overflow: hidden;
@@ -119,7 +126,7 @@ img {
   height: 125px;
   width: 100%;
   text-align: left;
-  padding: 10px 0px 0px 20px;
+  padding: 0 0 0 20px;
   font-weight: 700;
   border-bottom: 3px solid black;
 }
@@ -170,6 +177,7 @@ footer {
 
 .send {
   display: flex;
+  flex: 0 0 auto;
   text-align: center;
   width: 150px;
   height: 50px;
@@ -190,6 +198,8 @@ footer {
 }
 
 .contact {
+  display: flex;
+  flex: 0 0 auto;
   color: rgb(158, 150, 40); 
 }
 
