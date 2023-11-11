@@ -51,6 +51,11 @@ a {
   color: #cfc425;
 }
 
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 main {
   overflow: hidden;
   background-color: black;
@@ -133,25 +138,25 @@ img {
   border-bottom: 3px solid #cfc425;
 }
 
-#skill {
+.skill {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
 }
 
-#skill div{
+.skill div{
   width: auto;
   padding: 10px 0px 0px 0px;
 }
 
-#code {
+#code, #experience {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
 }
 
-#code a{
+#code a, #experience a{
   width: auto;
   color: aqua;
   font-style: italic;
@@ -162,14 +167,14 @@ img {
   border-bottom: 3px solid #cfc425;
 }
 
-.form {
+/* .form {
   width: 100%;
   font-size: 2em;
   font-weight: bolder;
   margin-top: 0px;
   padding-left: 30px;
   opacity: 0.8;
-}
+} */
 
 .contact {
   display: block;
@@ -181,10 +186,13 @@ img {
   align-content: flex-end;  
 }
 
-input {
+.send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 150px;
   height: 50px;
-  border: 7px solid rgb(211, 198, 17);
+  border: 2px solid rgb(211, 198, 17);
   border-radius: 20px;
   font-size: 25px;
   font-weight: bold;
@@ -193,7 +201,7 @@ input {
   background-color:  rgb(211, 198, 17);
 }
 
-input:hover {
+.send:hover {
   background-color: rgb(255, 253, 120);
 }
 
