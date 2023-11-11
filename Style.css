@@ -171,6 +171,7 @@ img {
 footer {
   display: flex;
   justify-content: space-between;
+  padding: 0 20px;
   height: 100px;
   background-color: black;
 }
