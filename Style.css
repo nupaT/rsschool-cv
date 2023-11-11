@@ -14,12 +14,6 @@ header {
   background-color: black;
 }
 
-footer {
-  height: 100px;
-  background-color: black;
-  color: rgb(158, 150, 40);
-}
-
 h1{
   display: none;
 }
@@ -167,41 +161,37 @@ img {
   border-bottom: 3px solid #cfc425;
 }
 
-/* .form {
-  width: 100%;
-  font-size: 2em;
-  font-weight: bolder;
-  margin-top: 0px;
-  padding-left: 30px;
-  opacity: 0.8;
-} */
-
-.contact {
-  display: block;
-  position: relative;
-  right: -706px;
-  top: -60px;
-  width: 100%;
-  font-size: 1em;
-  align-content: flex-end;  
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: black;
 }
 
 .send {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   width: 150px;
   height: 50px;
-  border: 2px solid rgb(211, 198, 17);
+  border: 3px solid rgb(211, 198, 17);
   border-radius: 20px;
+  background-color:  rgb(211, 198, 17);
+}
+
+.send a {
+  text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  margin-top: 25px;
-  margin-left: 10px;
-  background-color:  rgb(211, 198, 17);
+  color: black;
 }
 
 .send:hover {
   background-color: rgb(255, 253, 120);
 }
+
+.contact {
+  color: rgb(158, 150, 40); 
+}
+
+
 
